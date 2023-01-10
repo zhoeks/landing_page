@@ -12,6 +12,15 @@ body {
     color: #F9FAF8;
     border-color: #F9FAF8;
     border-radius: 25px;
+    flex-shrink: 0;
+}
+
+.headerLinks {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 img {
@@ -30,24 +39,11 @@ img {
     align-items: center;
 }
 
-.sectionInfo p {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
 .header h3 {
     margin-right: auto;
     font: 24px;
     color: #F9FAF8; 
     font-weight: bold;    
-}
-
-.headerLinks {
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
 .bodyContainer {
@@ -59,10 +55,22 @@ img {
     align-items: center;
 }
 
+.sectionInfo p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sectionInfo .leftInfo {
+    display: flex;
+    flex-direction: column;
+}
+
 .sectionInfo {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+    display: flex;
+    justify-content: center;
 }
 
 .sectionImages, .sectionBox {
