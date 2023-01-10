@@ -7,8 +7,11 @@ body {
     background: black;
 }
 
+.sign, .boxButton {
+    background-color: aliceblue;
+}
 
-.header, .footer, .sectionInfo {
+.header, .footer {
     background-color: #1F2937;
     font-size: 10px;
     color: aliceblue;
@@ -25,12 +28,10 @@ body {
     color: #E5E7EB;
 }
 
-.sectionInfo button {
-    background-color: #3882F6;
-}
-
 .header h3 {
     margin-right: auto;
+    font: 24px;
+    color: #F9FAF8;
 }
 
 .headerLinks {
