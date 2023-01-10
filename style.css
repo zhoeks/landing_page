@@ -109,14 +109,24 @@ img {
 
 .sectionQuote {
     background-color: #E5E7EB;
-    justify-content: stretch;
+    justify-content: center;
     max-width: 100%;
     flex: 1;
+    display: flex;
 }
 
 .quoteOnly {
-    justify-content: stretch;
-    max-width: 100%;
+    justify-content: center;
+    display: flex;
+    padding: 5% 15%;
+}
+
+.insideBox p {
+    align-self: flex-end;
+}
+
+.insideBox h3 {
+    align-self: flex-start;
 }
 
 .sectionBox {
