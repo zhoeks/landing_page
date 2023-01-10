@@ -16,6 +16,7 @@ body {
     border-color: #F9FAF8;
     border-radius: 25px;
     flex-shrink: 0;
+    
 }
 
 img {
@@ -141,5 +142,11 @@ img {
     background-color: #3882F6;
     display: flex;
     max-width: 100%;
+    justify-content: center;
+}
+
+.boxButton {
+    align-self: stretch;
+    justify-content: center;
 }
 
