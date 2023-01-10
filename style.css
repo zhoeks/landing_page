@@ -51,7 +51,6 @@ img {
     justify-content: center;
     flex-wrap: nowrap;
     flex-direction: column;
-    flex: 1;
     align-items: center;
     max-width: 100%;
     padding: 0 15px;
@@ -64,7 +63,12 @@ img {
 
 .sectionInfo .leftInfo {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    flex: 1, 1, 200px;
+}
+
+.sectionInfo .rightInfo {
+   flex: 1, 1, 200px;
 }
 
 .sectionInfo {
@@ -73,8 +77,8 @@ img {
     color: #F9FAF8;
     display: flex;
     justify-content: center;
-    max-width: 100%;
     padding: 0 15px;
+    
 }
 
 .sectionImages, .sectionBox {
@@ -86,6 +90,7 @@ img {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 
 .fourwide {
@@ -93,12 +98,16 @@ img {
     justify-content: center;
     align-items: center;
     gap: 6px;
+    flex: 1;
 }
 
 .sectionQuote {
     background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
 }
 
 .sectionBox {
     background-color: #3882F6;
+    flex: 1;
 }
