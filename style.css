@@ -1,7 +1,13 @@
 * {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: 15px;
+    padding: 0 10px;
     
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    font-size: 10px;
+    color: aliceblue;
 }
 
 .header {
@@ -13,6 +19,7 @@
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
+
 }
 .bodyContainer {
     display: flex;
