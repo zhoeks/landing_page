@@ -29,13 +29,14 @@ img {
     color: aliceblue;
     display: flex;
     justify-content: space-evenly;
+    max-width: 100%;
 }
 
 .headerLogo {
     font: 24px;
     color: #F9FAF8; 
     font-weight: bold;
-
+    margin-right: auto;
 }
 
 .links {
