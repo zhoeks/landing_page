@@ -7,7 +7,7 @@ body {
     background: #0e0e0e;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
 }
 
 .sign, .boxButton {
@@ -28,13 +28,14 @@ img {
     background-color: #1F2937;
     color: aliceblue;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .headerLogo {
     font: 24px;
     color: #F9FAF8; 
-    font-weight: bold;    
+    font-weight: bold;
+
 }
 
 .links {
