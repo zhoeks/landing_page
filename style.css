@@ -139,13 +139,15 @@ img {
     padding: 5% 10%;
     justify-content: space-around;
     max-width: 100%;
+    color: #F9FAF8;
 }
 
 .insideBox {
     background-color: #3882F6;
     display: flex;
     max-width: 100%;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     flex: 1;    
 }
 
