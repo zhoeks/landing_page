@@ -149,8 +149,9 @@ img {
     flex: 1;    
 }
 
-.boxButton {
-    align-self: stretch;
+.insideBox .buttonBox {
+    display: flex;
+    align-self: center;
     justify-content: center;
 }
 
