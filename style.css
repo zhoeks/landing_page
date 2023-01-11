@@ -137,7 +137,8 @@ img {
     flex: 1;
     display: flex;
     padding: 5% 10%;
-    justify-content: center;
+    justify-content: space-around;
+    max-width: 100%;
 }
 
 .insideBox {
@@ -145,6 +146,7 @@ img {
     display: flex;
     max-width: 100%;
     justify-content: center;
+    flex: 1;    
 }
 
 .boxButton {
